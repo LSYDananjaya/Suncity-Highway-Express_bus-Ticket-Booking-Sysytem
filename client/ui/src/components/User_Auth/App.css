@@ -1,0 +1,117 @@
+body {
+  height: 100%;
+  
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #001f3f !important;
+}
+
+.search-btn:hover {
+  background-color: #001f3f;
+}
+
+.bg-light-gray {
+  background-color: #333333; /* Light gray background color */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* First row for content, second row for footer */
+  min-height: 100vh;
+}
+
+.navbar-custom {
+  background-color: #344966 !important;
+}
+
+.footer-custom {
+  background-color: #344966 !important;
+}
+
+/* App.css */
+.admin-container {
+  display: flex;
+  height: 100vh;
+  
+}
+
+.admin-side-panel {
+  background-color: #343a40;
+  color: white;
+  width: 250px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto; /* Allow scrolling for side panel if content exceeds height */
+}
+
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling for main content if content exceeds height */
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.admin-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.admin-option:hover {
+  background-color: #495057; /* Darker shade on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
+
+.admin-option.selected {
+  background-color: #6c757d;
+}
+
+.admin-option img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling for main content if content exceeds height */
+  margin-left: 250px; /* Add margin to the left to avoid covering by the side panel */
+}

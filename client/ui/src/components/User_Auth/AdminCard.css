@@ -1,0 +1,25 @@
+.admin-card {
+    background-color: #343a40;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .admin-card p {
+    margin-bottom: 5px;
+  }
+  
+  .admin-card .user-role {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .admin-card .user-role:before {
+    content: "Role: ";
+  }
+  

@@ -1,0 +1,78 @@
+.package-card {
+    border: 10px solid #ccc; /* Updated border color */
+    border-radius: 10px; /* Increased border radius for smoother edges */
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Updated box shadow for subtle effect */
+    margin-bottom: 20px;
+    background-color: #f0f0f0; /* Updated background color to a lighter shade */
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 16px;
+    background-color: #ffffff; /* Light background for content */
+}
+
+.card-title {
+    font-size: 1.4rem; /* Increased font size for title */
+    margin-bottom: 12px; /* Adjusted margin for better spacing */
+    color: #333; /* Dark text color */
+}
+
+.card-description {
+    font-size: 1.1rem; /* Increased font size for description */
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.card-id {
+    font-size: 1rem;
+    color: #555; 
+}
+
+.card-price {
+    font-size: 1.2rem; /* Increased font size for price */
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    color: #c60e0e; /* Price color */
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 10px 20px; /* Increased padding for button */
+    background-color: #007bff; /* Button color */
+    color: #ffffff; /* Button text color */
+    border-radius: 5px; /* Adjusted border radius for button */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+.search-input {
+    margin-left: 10px;
+    width: 20%; /* Set width to fill its container */
+    padding: 10px; /* Add padding for spacing */
+    border: 2px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    font-size: 16px; /* Set font size */
+    outline: none; /* Remove outline on focus */
+}
+
+/* Style placeholder text */
+.search-input::placeholder {
+    color: #999; /* Set placeholder text color */
+}
+
+/* Style input on focus */
+.search-input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px #007bff; /* Add box shadow on focus */
+}

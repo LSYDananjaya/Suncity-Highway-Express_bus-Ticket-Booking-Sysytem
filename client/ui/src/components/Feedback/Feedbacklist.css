@@ -1,0 +1,47 @@
+.list{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  background-color: #d5ebfd; /* Set background color */
+  padding: 20px; /* Add padding to create space around the grid */
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.filters select {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease-in-out;
+  font-size: 16px;
+}
+
+.filters select:hover,
+.filters select:focus {
+  border-color: #007bff;
+}
+
+.filters button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}
+
